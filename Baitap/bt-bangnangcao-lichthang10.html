@@ -4,75 +4,114 @@
     <meta charset="UTF-8">
     <title>Lịch tháng 10</title>
     <style>
+        h2 {
+            text-align: center;
+            color: blue;
+        }
 
+        table {
+            width: 500px;
+            margin: auto;
+            text-align: center;
+        }
+
+        th {
+            width: 14.3%;
+        }
+
+        .red span {
+            color: red;
+        }
+
+        .blue span {
+            color: blue;
+        }
+
+        .yellow {
+            background-color: #f3bc36;
+        }
+
+        #title {
+            color: white;
+        }
+
+        #table2 {
+            border: 2px ridge silver;
+            border-collapse: collapse;
+        }
+
+        #table2 th {
+            border: 2px ridge silver;
+        }
     </style>
 </head>
 <body>
 <h2>Tháng 10 - October</h2>
 <table>
-<tr>
-    <th>C.Nhật</th>
-    <th>T.Hai</th>
-    <th>T.Ba</th>
-    <th>T.Tư</th>
-    <th>T.Năm</th>
-    <th>T.Sáu</th>
-    <th>T.Bảy</th>
-</tr>
+    <tr id="title">
+        <th style="background-color: red">C.Nhật</th>
+        <th class="yellow">T.Hai</th>
+        <th class="yellow">T.Ba</th>
+        <th class="yellow">T.Tư</th>
+        <th class="yellow">T.Năm</th>
+        <th class="yellow">T.Sáu</th>
+        <th style="background-color: blue">T.Bảy</th>
+    </tr>
     <tr>
-        <td>Sun</td>
+        <td class="red"><span>Sun</span></td>
         <td>Mon</td>
         <td>Tue</td>
         <td>Wed</td>
         <td>Thu</td>
         <td>Fri</td>
-        <td>Sat</td>
+        <td class="blue"><span>Sat</span></td>
     </tr>
 </table>
-<table>
+<table id="table2">
     <tr>
-        <th></th>
+        <th class="red"><span></span></th>
         <th></th>
         <th></th>
         <th></th>
         <th>1<sub>13</sub></th>
         <th>2<sub>14</sub></th>
-        <th>3<sub>15</sub></th>
+        <th class="blue"><span>3</span><sub>15</sub></th>
     </tr>
     <tr>
-        <th>4<sub>16</sub></th>
+        <th class="red"><span>4</span><sub>16</sub></th>
         <th>5<sub>17</sub></th>
         <th>6<sub>18</sub></th>
         <th>7<sub>19</sub></th>
         <th>8<sub>20</sub></th>
         <th>9<sub>21</sub></th>
-        <th>10<sub>22</sub></th>
+        <th class="blue"><span>10</span><sub>22</sub></th>
     </tr>
     <tr>
-        <th>11<sub>23</sub></th>
+        <th class="red"><span>11</span><sub>23</sub></th>
         <th>12<sub>24</sub></th>
         <th>13<sub>25</sub></th>
         <th>14<sub>26</sub></th>
         <th>15<sub>27</sub></th>
         <th>16<sub>28</sub></th>
-        <th>17<sub>29</sub></th>
+        <th class="blue"><span>17</span><sub>29</sub></th>
     </tr>
     <tr>
-        <th>18<sub>1.9</sub></th>
+        <th class="red"><span>18</span><sub>1.9</sub></th>
         <th>19<sub>2</sub></th>
         <th>20<sub>3</sub></th>
         <th>21<sub>4</sub></th>
         <th>22<sub>5</sub></th>
         <th>23<sub>6</sub></th>
-        <th>24<sub>7</sub></th>
-    </tr><tr>
-        <th>25<sub>8</sub></th>
+        <th class="blue"><span>24</span><sub>7</sub></th>
+    </tr>
+    <tr>
+        <th class="red"><span>25</span><sub>8</sub></th>
         <th>26<sub>9</sub></th>
         <th>27<sub>10</sub></th>
         <th>28<sub>11</sub></th>
         <th>29<sub>12</sub></th>
         <th>30<sub>13</sub></th>
-        <th>31<sub>14</sub></th>
+        <th class="blue"><span>31</span><sub>14</sub></th>
     </tr>
 </table>
 </body>
